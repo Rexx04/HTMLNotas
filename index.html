@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script.js"></script>
+    <title>Notas</title>
+  </head>
+  <body>
+    <section id="container">
+      <img
+        src="https://www.uraccan.edu.ni/sites/default/files/URACCANlogo1_0.png"
+        alt="UraccanLOGOMEJ.jpg"
+      />
+      <h1>Notas</h1>
+      <p>
+        En este pequeño proyecto pueden consultar sus notas de las clases que
+        les impartí sólo con su número de carnet.
+      </p>
+      <section id="inputContainer">
+        <input
+          type="text"
+          inputmode="numeric"
+          name="carnet"
+          id="carnet"
+          placeholder="24-001234-0300"
+          required
+        />
+        <button onclick="buscarNota()">VER NOTAS</button>
+      </section>
+    </section>
+  </body>
+</html>
